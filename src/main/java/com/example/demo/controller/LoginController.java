@@ -217,6 +217,12 @@ public class LoginController {
 
 	
 	
+	/**
+	 * Gets the login by name.
+	 *
+	 * @param name the name
+	 * @return the login by name
+	 */
 	@GetMapping("/users/{name}")
 	public ResponseEntity<Login> getLoginByName(@PathVariable String name) {
 		Login login = loginrepo.findByName(name)
