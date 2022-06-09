@@ -5,9 +5,9 @@ import java.util.Optional;
 
 import com.example.demo.modelo.Login;
 
-// TODO: Auto-generated Javadoc
+// 
 /**
- * The Interface IpersonajeService.
+ * The Interface LoginService
  */
 public interface LoginInterface {
 	

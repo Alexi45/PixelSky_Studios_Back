@@ -10,7 +10,7 @@ import com.example.demo.interfaceService.LoginInterface;
 import com.example.demo.interfaces.LoginRepository;
 import com.example.demo.modelo.Login;
 
-// TODO: Auto-generated Javadoc
+//
 /**
  * The Class LoginService.
  *  @author Alejandro

@@ -33,7 +33,7 @@ import com.example.demo.service.LoginService;
 
 import antlr.StringUtils;
 
-// TODO: Auto-generated Javadoc
+// 
 /**
  * The Class LoginController.
  *  @author Alejandro
@@ -102,7 +102,7 @@ public class LoginController {
 
 		System.out.println(p.getName()+p.getPassword());
 		p.setScore("0");
-		p.setUrl("https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png");
+		p.setUrl("https://cdn-icons-png.flaticon.com/512/1077/1077012.png?w=360");
 		return userService.register(p);
 
 	}
@@ -233,8 +233,7 @@ public class LoginController {
 	
 	
 	
-	
-	
+
 	
 	
 	

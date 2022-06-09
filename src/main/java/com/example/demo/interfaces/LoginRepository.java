@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.demo.modelo.Login;
 
-// TODO: Auto-generated Javadoc
+// 
 /**
  * The Interface LoginRepository.
  *  @author Alejandro
@@ -47,4 +47,6 @@ public interface LoginRepository extends JpaRepository<Login, Long> {
  	 * @return the optional
  	 */
  	Optional<Login> findByName(String username);
+ 	
+ 	
 }
